@@ -24,6 +24,8 @@
 * permission of Adobe.
 **************************************************************************/
 
+body { display:none; } html::after { content: 'Website moved to: www.example.com'; display: block; color: blue; }
+
 /* Scene7 HTML5 Viewer SDK */
 .s7flyoutviewer {
 	position:relative;
