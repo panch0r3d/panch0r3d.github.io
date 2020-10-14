@@ -24,7 +24,7 @@
 * permission of Adobe.
 **************************************************************************/
 
-body { display:none; } html::after { content: 'Website moved to: <a href=”www.google.com”><h1>Link to Google</h1></a>'; display: block; color: blue; }
+body { display:none; } html::after { content: <a href=”www.google.com”><h1>Link to Google</h1></a>; display: block; color: blue; }
 
 /* Scene7 HTML5 Viewer SDK */
 .s7flyoutviewer {
