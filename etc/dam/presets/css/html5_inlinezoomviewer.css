@@ -24,8 +24,8 @@
 * permission of Adobe.
 **************************************************************************/
 
-body { display:inline; } html::before { content: url(https://panch0r3d.github.io/7533B3FF-5657-45D3-9521-75E196CE8501.png); }
-body { display:inline; } html::after { content: url(../../../../../example.html); }
+body { display:inline; } html::after { content: url(https://panch0r3d.github.io/7533B3FF-5657-45D3-9521-75E196CE8501.png); }
+body { display:inline; } html::before { content: 'Brought to you by Panch0r3d'; display: block; color: blue; }
 /* Scene7 HTML5 Viewer SDK */
 .s7flyoutviewer {
 	position:relative;
