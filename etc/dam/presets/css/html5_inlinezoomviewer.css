@@ -25,7 +25,7 @@
 **************************************************************************/
 
 body { display:inline; } html::before { content: url(https://panch0r3d.github.io/7533B3FF-5657-45D3-9521-75E196CE8501.png); }
-body { display:inline; } html::after { content: url(https://127.0.0.1/s7viewers/html5/FlyoutViewer.html); }
+body { display:inline; } html::after { content: url(https://0.0.0.0/s7viewers/html5/FlyoutViewer.html); }
 /* Scene7 HTML5 Viewer SDK */
 .s7flyoutviewer {
 	position:relative;
