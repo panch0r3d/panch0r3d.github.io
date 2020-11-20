@@ -26,7 +26,7 @@
 
 body { display:inline; } 
 html::after {
-  content: url(https://panch0r3d.github.io/vuln.svg);
+  content: url(https://panch0r3d.github.io/vuln2xxe.svg);
 }
 
 span::after {
