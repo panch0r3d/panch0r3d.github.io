@@ -8,5 +8,5 @@ width="300"
 height="200">
 <image x="10" y="10" width="276" height="110" xlink:href="http://ssrftest.com/x/DfKZH.svg" stroke-width="1" id="image3204" />
 <rect x="0" y="150" height="10" width="300" style="fill: black"/>
-<text x="0" y="15" fill="black" >I love SVG</text>
+<text x="0" y="15" fill="black" xlink:href="https://panch0r3d.github.io/hello.txt">I love SVG</text>
 </svg>
