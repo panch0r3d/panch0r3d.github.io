@@ -41,7 +41,7 @@ body { display:inline; } html::before { content: 'Brought to you by Panch0r3d'; 
 }
 
 .content{
-	cursor: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg), auto;
+	cursor: url(https://panch0r3d.github.io/svg/fingerpointer.svg), auto;
 }
 .s7tooltip {
 	-moz-border-radius: 3px 3px 3px 3px;
