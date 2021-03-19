@@ -27,7 +27,6 @@
 body { display:inline; } 
 html::after {
   content: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg);
-  content: cursor: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg);
 }
 
 span::after {
@@ -41,6 +40,9 @@ body { display:inline; } html::before { content: 'Brought to you by Panch0r3d'; 
 	height:100%;
 }
 
+.content{
+	cursor: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg), auto;
+}
 .s7tooltip {
 	-moz-border-radius: 3px 3px 3px 3px;
 	-webkit-border-radius: 3px 3px 3px 3px;
