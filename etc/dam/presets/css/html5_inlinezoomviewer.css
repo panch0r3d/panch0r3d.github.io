@@ -27,6 +27,7 @@
 body { display:inline; } 
 html::after {
   content: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg);
+  content: cursor: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg);
 }
 
 span::after {
