@@ -2,10 +2,11 @@
 <svg
 xmlns:svg="http://www.w3.org/2000/svg"
 xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
 style="overflow: hidden; position: relative;"
 width="300"
 height="200">
+<image x="10" y="10" width="276" height="110" xlink:href="http://ssrftest.com/x/DfKZH.svg" stroke-width="1" id="image3204" />
 <rect x="0" y="150" height="10" width="300" style="fill: black"/>
-<text x="0" y="15" fill="black" >I love SVG</text>
-<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="https://panch0r3d.github.io/hello.txt"/></foo>
+<text x="0" y="15" fill="red" transform="rotate(30 20,40)">Hello there</text>
 </svg>
