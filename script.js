@@ -18,7 +18,7 @@ async function renderData() {
         return;
     }
 
-    data.forEach(item => {
+
         const card = document.createElement('div');
         card.classList.add('card');
 
@@ -31,7 +31,7 @@ async function renderData() {
         card.appendChild(country);
         card.appendChild(body);
         container.appendChild(card);
-    });
+
 }
 
 // Call the renderData function to display data
