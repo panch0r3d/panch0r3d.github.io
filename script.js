@@ -1,7 +1,7 @@
 // Function to fetch data from the API
 async function fetchData() {
     try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+        const response = await fetch('http://ip-api.com/json/');
         const data = await response.json();
         return data;
     } catch (error) {
@@ -22,13 +22,13 @@ async function renderData() {
         const card = document.createElement('div');
         card.classList.add('card');
 
-        const title = document.createElement('h2');
-        title.textContent = item.title;
+        const country = document.createElement('h2');
+        country.textContent = item.country;
 
-        const body = document.createElement('p');
-        body.textContent = item.body;
+        const regionName = document.createElement('p');
+        regionName.textContent = item.regionName;
 
-        card.appendChild(title);
+        card.appendChild(country);
         card.appendChild(body);
         container.appendChild(card);
     });
