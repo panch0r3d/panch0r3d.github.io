@@ -1,7 +1,7 @@
 // Function to fetch data from the API
 async function fetchData() {
     try {
-        const response = await fetch('http://ip-api.com/json/');
+        const response = await fetch('https://ipinfo.io/json');
         const data = await response.json();
         return data;
     } catch (error) {
@@ -25,8 +25,8 @@ async function renderData() {
         const country = document.createElement('h2');
         country.textContent = item.country;
 
-        const regionName = document.createElement('p');
-        regionName.textContent = item.regionName;
+        const region = document.createElement('p');
+        region.textContent = item.region;
 
         card.appendChild(country);
         card.appendChild(body);
